@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">detail</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Hỗ chợ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Danh mục</a></li>
+                    <li><a href="#">Đơn giá</a></li>
+                </ul>
+            </nav>
+        <section>
+            <div class="content">
+                <div class="banner">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGGhZDg5gXfVRi0z2Rx2n0_GfzT8DCAF996eEbzozsyO-wSOfq48mcMz8q_dyPtnNSew&usqp=CAU"  alt="">
+                </div>
+                <div class="content2">
+                <aside>
+                    <div class="content-mini-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sfbu8tjxrc3c33KLR2iOjyheDh-LAuurwA&s" alt="">
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </aside>
+                <article>
+                    <div class="content-mini-2">
+                        <ul>
+                            <li>What is Lorem Ipsum?</li>
+                            <li>Why do we use it?</li>
+                            <li>Where does it come from?</li>
+                            <li>Where can I get some?</li>
+                            <li>What is Lorem Ipsum?</li>
+                        </ul>
+                    </div>
+                </article>
+                </div>
+              
+            </div>
+        </section>
+        <footer>
+            <div id="footer">
+            <div class="f1">
+                <p>Copyright 2021</p>
+                <p>Designed by</p>
+                <p>0987654321</p>
+                <p>test@gmail.com</p>
+                <p>111-abc-abcd</p>
+            </div>
+            <div class="f1">
+                <p>Copyright 2021</p>
+                <p>Designed by</p>
+                <p>0987654321</p>
+                <p>test@gmail.com</p>
+                <p>111-abc-abcd</p>
+            </div>
+            <div class="f1">
+                <p>Copyright 2021</p>
+                <p>Designed by</p>
+                <p>0987654321</p>
+                <p>test@gmail.com</p>
+                <p>111-abc-abcd</p>
+            </div>
+            <div class="f1">
+                <p>Copyright 2021</p>
+                <p>Designed by</p>
+                <p>0987654321</p>
+                <p>test@gmail.com</p>
+                <p>111-abc-abcd</p>
+            </div>
+        </div>
+        <div class="footer2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGGhZDg5gXfVRi0z2Rx2n0_GfzT8DCAF996eEbzozsyO-wSOfq48mcMz8q_dyPtnNSew&usqp=CAU" alt="">
+        </div>
+        </footer>
+    </div>
+    <style>
+        *{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    box-shadow: 0px 0px 10px rgba(241, 242, 240, 0.7);
+    width: 900px;
+    height: auto;
+    border: 1px solid white;
+    background-color: aliceblue;
+    /* display: flex; */
+    /* margin-top: 200px; */
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+   
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block; /* Đảm bảo ô màu bao phủ toàn bộ phần chữ */
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+nav ul li:hover a {
+    background-color: aqua; /* Màu khi hover */
+    border-radius: 5px;
+    color: black;
+   
+}
+
+/* Để chữ nằm giữa ô màu khi hover */
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    /* position: absolute; */
+    position: relative;
+
+}
+.banner img{
+    width: 100%;
+    height: 100px;
+    padding-top: -80px;
+    /* background-color: aqua; */
+    /* border: 1px solid; */
+    margin-top: -25px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.content2{
+    overflow: hidden;
+    padding-top: 300px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1px;
+
+    height: 280px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.content2 img{
+    overflow: hidden;
+    width: 450px;
+    padding-left: 10px;
+    margin-top: -190px;
+    border-radius: 15px;
+}
+aside{
+    float: left;
+    width: 50%;
+    height: 800px;
+}
+aside p{
+    padding-left: 20px;
+    width: 100%;
+}
+article{
+    float: right;
+    width: 49%;
+}
+.content-mini-2{
+    margin-right: -30px;
+}
+.content-mini-2 ul{
+    /* margin-top: -180px; */
+    margin: -180px -30px 0px 100px;
+    /* padding: 0px 70px; */
+    text-decoration: none;
+    /* flex-direction: none; */
+    list-style: none;
+}
+.content-mini-2 ul li{
+  padding-top: 50px;
+}
+footer{
+    /* display: none;
+     */
+     border: 1px solid white;
+     background-color: antiquewhite;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+.f1{
+    font-size: 20px;
+
+}
+.footer2 img{
+    width: 100%;
+    height: 100px;
+}
+    </style>
+</body>
+</html>
+<script>
+    // Hàm tạo màu ngẫu nhiên
+    function getRandomColor() {
+        let letters = "0123456789ABCDEF"; // Bảng màu HEX
+        let color = "#";
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    // Lấy tất cả các mục menu
+    let menuItems = document.querySelectorAll("nav ul li a");
+
+    // Thêm sự kiện hover để đổi màu
+    menuItems.forEach(item => {
+        item.addEventListener("mouseover", function () {
+            this.style.backgroundColor = getRandomColor(); // Đổi màu khi hover
+            this.style.color = "white"; // Chỉnh màu chữ cho dễ nhìn
+        });
+
+        item.addEventListener("mouseout", function () {
+            this.style.backgroundColor = ""; // Trở về màu gốc
+            this.style.color = ""; 
+        });
+    });
+</script>
