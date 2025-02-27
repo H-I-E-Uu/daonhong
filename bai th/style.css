@@ -1,0 +1,164 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: inset;
+}
+body{
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.herder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+.logo img{
+    width: 150px;
+    margin: 15px 0px 0px 20px;
+}
+.search {
+    position: relative;
+    display: inline-block;
+    /* padding-left: 50px; */
+    margin-left: -100px;
+}
+
+.search input {
+    width: 650px; 
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.item-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+}
+
+.item-search i {
+    font-size: 16px;
+}
+.tk{
+    padding-right: 50px;
+    font-size: 25px;
+}
+.nav{
+    border: 1px solid #2ca1b3;
+    background-color: #2ca1b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+}
+.nav ul{
+  list-style: none;
+    display: flex;
+    text-decoration: none;
+ margin-left: -35px;
+}
+.nav ul li{
+    /* padding-right: 20px; */
+    border: 1px solid #2ca1b3;
+    width: 50px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    padding:12px 5px 5px 5px;
+    margin-left: 1px;
+}
+.nav ul li:hover{
+    background-color: #12b9d3;
+
+}
+.nav button{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.nav-2{
+    margin-left: -400px;
+}
+.item{
+    /* padding-left: -50px; */
+    margin-right: 50px;
+}
+section{
+    display: flex;
+    margin-top: 20px;
+    padding: 0px 0px 0pc 1cqb;
+}
+article{
+    float: left;
+    width: 59%;
+}
+.article-1 img{
+    width: 700px;
+}
+.article-1 .article-1-1{
+    font-size: 30px;
+}
+.article-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.content1{
+    width: 31%;
+    border: 1px solid #ffffff;
+}
+.content1 img{
+    width: 100%;
+    
+}
+.content2{
+    width: 31%;
+    border: 1px solid #ffffff;
+
+}
+.content2 img{
+    width: 100%;
+}
+.content3{
+    width: 31%;
+    border: 1px solid #ffffff;
+
+}
+.content3 img{
+    width: 100%;
+}
+aside{
+    float: right;
+    width: 40%;
+}
+aside img{
+    width: 50px;
+    height: 40px;
+    display: flex;
+}
+.content-aside{
+    display: flex;
+    align-items: center;
+}
+.content-aside img{
+    padding: 0px 20px 0px 20px ;
+}
+footer{
+    text-align: center;
+    border: 1px solid rgb(185, 240, 255);
+    background-color: rgb(185, 240, 255);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+footer h1{
+    margin-top: 10px;
+}
